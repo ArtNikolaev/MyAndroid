@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyAndroid</string>
+    <string name="homework">Homework</string>
+    <string name="homework_1">Homework 1</string>
+    <string name="homework_2">Homework 2</string>
+    <string name="homework_3">Homework 3</string>
+    <string name="MyFirstApp">Мое первое приложение!</string>
 </resources>
