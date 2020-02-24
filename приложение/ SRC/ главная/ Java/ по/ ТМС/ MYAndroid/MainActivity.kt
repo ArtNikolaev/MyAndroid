@@ -11,9 +11,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        
+        val buttonHW1 = button
+        buttonHW1.setOnClickListener{ сlick(buttonHW1)}
     }
 
-    fun Click(view: View) {
+    fun сlick(view: View) {
         val intent = Intent(this, Dz1Activity::class.java)
         startActivity(intent)
     }
